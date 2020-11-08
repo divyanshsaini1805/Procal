@@ -82,12 +82,13 @@ nav form input{
     outline: none;
     transform: scaleX(0);
     transform-origin: right;
-    transition: .5s;
-    border-bottom: 1px solid #e5e5e5;
-
+    transition: .8s;
+    border-bottom: 2px solid #e5e5e5;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 nav form input::placeholder{
-    font-size: 20px;
+    font-size: 22px;
 
 }
 /*js-css*/
