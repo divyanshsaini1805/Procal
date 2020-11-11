@@ -1,22 +1,8 @@
-/*input{
-    border: 2px double turquoise;
-    height: 25px;
-    width: 300px;
-    border-radius: 50px;
-    transform: translate(45px,10px);
-    
-    text-align: center;
-}*/
-   
-/*top-bar*/
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-}
-body{
     
 }
 nav{
@@ -26,6 +12,7 @@ nav{
     justify-content: left;
     font-size: 20px;
     border-bottom: 2px solid #e5e5e5;
+    position:sticky;
 }
 nav button{
     display: none;
@@ -108,6 +95,7 @@ nav form .fa{
     right: 40px;
     cursor: pointer;
     color: #757575;
+    
 }
 .fa-times{
     display: none;
@@ -184,6 +172,7 @@ img{
         top: 80px;
         transition: 0.5s;
         overflow: hidden;
+        z-index: 1;
     }
     nav .menu.expand-mobile{
         height: 700px;
@@ -192,6 +181,7 @@ img{
         float: right;
         width: 90%;
         text-align: left;
+        z-index: 1;
     }
     nav form{
         left: 30%;
@@ -207,16 +197,5 @@ img{
         font-size: initial;
     }
 }
-    
-/*.coloumn1{
-     border-radius: 5%;
-     border-style: none;
-     box-shadow:  5px 5px 8px #ccc;
-     padding: 10px;
-    height:600px;
-    width: 700px;
-    position: relative;
-    left: 7px;
-    top: 5px;
-    background-color:aqua
-}*/
+
+

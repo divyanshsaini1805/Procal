@@ -16,3 +16,4 @@ var  searchIcon = document.querySelector('.fa-search');
 		button.classList.toggle('expand-icon');
 
 	}
+
