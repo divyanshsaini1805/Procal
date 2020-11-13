@@ -7,7 +7,7 @@
         border-style: none;
         box-shadow:  5px 5px 8px #ccc;
         background-color:whitesmoke;
-        position: fixed;
+        position: sticky;
         top: 110px;
         right:20px ;
         
@@ -42,9 +42,9 @@
     section.active {
         opacity: 1;
     }
-    section:last-child {
+    /* section:last-child {
         
-    }
+    } */
 
     .product{
         border: 2px solid black;

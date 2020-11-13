@@ -12,7 +12,9 @@ nav{
     justify-content: left;
     font-size: 20px;
     border-bottom: 2px solid #e5e5e5;
-    position:sticky;
+    position: sticky;
+    top : 0rem;
+    
 }
 nav button{
     display: none;
@@ -147,9 +149,10 @@ img{
     nav button:after{
         top: 15px;
     }
-    nav button.expand-icon{
+    /* nav button.expand-icon{
         
-    }
+    
+    } */
     nav button.expand-icon:before,
     nav button.expand-icon:after{
         transform: rotate(45deg);
