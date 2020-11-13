@@ -74,7 +74,8 @@ var chapters = {
     };
      
     // On every scroll event, check which element is on screen
-    window.onscroll = function () {
+    
+    function checkElement()  {
     var chapterNames = Object.keys(chapters);
     for (var i = 0; i < chapterNames.length; i++) {
     var chapterName = chapterNames[i];
@@ -102,3 +103,21 @@ var chapters = {
     var bounds = element.getBoundingClientRect();
     return bounds.top < window.innerHeight && bounds.bottom > 0;
     }
+
+
+
+
+
+function mapHeight() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("map").style.top = "0px";
+}
+else if (document.body.scrollTop < 80 || document.documentElement.scrollTop < 80) {
+    document.getElementById("map").style.top = "110px";
+}
+}
+
+window.onscroll = function(){
+    checkElement();
+    mapHeight();
+}
