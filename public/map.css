@@ -23,14 +23,13 @@
         
     }
 
-    .product{
-        transform: translatey(110px);
-    }
+    
     section {
         
         height: 500px;
         padding: 20px;
         line-height: 18px;
+        
         border-bottom: 2px solid #ddd;
         opacity: 0.25;
         font-size: 12px;
@@ -42,9 +41,9 @@
     section.active {
         opacity: 1;
     }
-    /* section:last-child {
+    section:last-child {
         
-    } */
+    }
 
     .product{
         border: 2px solid black;

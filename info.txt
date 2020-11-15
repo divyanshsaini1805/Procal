@@ -1,6 +1,4 @@
-Hello Team welcome to the Project, This Project will focus on to locate the products in the nearby area,
-So It will easier for them to buy specific product without searching here and there. 
-
+Hello Team Welcome to the Project, This Project will work or focus in the nearby area.
 
 Instructions:
 1.Give Classes a proper name so it will easier for us to understand the code.
