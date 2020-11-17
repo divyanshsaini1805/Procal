@@ -1,7 +1,11 @@
 .shop > section{
+<<<<<<< HEAD
 height: 445px;
+=======
+height: 400px;
+>>>>>>> 13bfaee7dc4f402dd84bb8dc36114e59b328b112
 width: 94%;
-line-height: 16px;
+line-height: 18px;
 border: 4px red;
 }
 
