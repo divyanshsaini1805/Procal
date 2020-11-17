@@ -115,7 +115,7 @@ function mapHeight() {
     document.getElementById("map").style.top = "0px";
 }
 else if (document.body.scrollTop < 80 || document.documentElement.scrollTop < 80) {
-    document.getElementById("map").style.top = "110px";
+    document.getElementById("map").style.top = "115px";
 }
 }
 
