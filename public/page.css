@@ -1,5 +1,5 @@
 .shop > section{
-height: 450px;
+height: 445px;
 width: 94%;
 line-height: 16px;
 border: 4px red;
@@ -8,6 +8,26 @@ border: 4px red;
 .box{
 
   border: 4px red;
+
+
+}
+
+.shop > h3, .box > h3, .mapbox > h3{
+
+text-align: center;
+font: bolder;
+color: royalblue;
+}
+
+.boxfix{
+
+  height: fit-content;
+  width: fit-content;
+}
+
+.boxfix > img {
+
+height: 345px;
 
 
 }
