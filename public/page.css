@@ -1,9 +1,5 @@
 .shop > section{
-<<<<<<< HEAD
-height: 445px;
-=======
 height: 400px;
->>>>>>> 13bfaee7dc4f402dd84bb8dc36114e59b328b112
 width: 94%;
 line-height: 18px;
 border: 4px red;
@@ -34,4 +30,36 @@ color: royalblue;
 height: 345px;
 
 
+}
+
+.chats{
+  background-color: whitesmoke;
+  height: 50px;
+  width: 15%;
+  border-radius: 100%;
+  border: none;
+  transform: translate(10px,320px);
+  text-align: center;
+  box-shadow: 1px 1px 2px 2px turquoise;
+  transition: width 1s, height 1s, border-radius 1s ease-in-out; 
+  
+}
+
+.content{
+  position: fixed;
+}
+
+.fa-rocketchat {
+ color: aqua;
+ font-size: 2rem;
+ width: fit-content;
+ height: fit-content;
+ padding: 7px;
+}
+
+.size{
+    
+  width: 100vh;
+  height: 20vh;  
+  
 }

@@ -15,26 +15,6 @@
   transform: translate(10px, 110px);
 }
 
-<<<<<<< HEAD
-.product {
-  transform: translate(110px);
-}
-section {
-  height: 500px;
-  padding: 20px;
-  line-height: 18px;
-  border-bottom: 2px solid #ddd;
-  opacity: 0.25;
-  font-size: 12px;
-  font-family: "Montserrat", sans-serif;
-  background-color: aqua;
-  box-shadow: 5px 5px rgb(176, 233, 176);
-}
-section.active {
-  opacity: 1;
-}
-/* section:last-child {
-=======
 	#map{
         
         width: 600px;
@@ -78,7 +58,6 @@ section.active {
         opacity: 1;
     }
     section:last-child {
->>>>>>> 13bfaee7dc4f402dd84bb8dc36114e59b328b112
         
     }
 
@@ -93,3 +72,5 @@ section.active {
 .map {
   border: 2px solid black;
 }
+
+

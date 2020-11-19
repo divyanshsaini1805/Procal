@@ -1,3 +1,4 @@
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZnJhbmtlbjciLCJhIjoiY2s5aGV3enpyMDd0czNmbXY4YTY3ZnhpeiJ9.CzT4oeEk5Hz6vWAswBBj5A';
 var map = new mapboxgl.Map({
 container: 'map',
@@ -20,10 +21,9 @@ map.addControl(
     })
     ); 
 
-  
-
+    map.addControl(new mapboxgl.FullscreenControl());
     
-var chapters = {
+var chapters = { 
     'baker': {
     bearing: 27,
     center: [-0.15591514, 51.51830379],
