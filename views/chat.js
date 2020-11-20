@@ -8,6 +8,6 @@ chat.addEventListener("click",()=>{
 
          setTimeout(function(){
             chat.classList.toggle("size");
-         },2000); 
+         },5000); 
 });  
   
