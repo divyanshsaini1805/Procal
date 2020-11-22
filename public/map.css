@@ -40,7 +40,7 @@
     }
 
     
-    section {
+    section, .edit {
         
         height: 500px;
         padding: 20px;
@@ -54,12 +54,12 @@
         box-shadow: 5px 5px rgb(176, 233, 176);
         
     }
-    section.active {
+    section.active, .edit.active {
         opacity: 1;
     }
-    section:last-child {
+    /* section:last-child {
         
-    }
+    } */
 
 .product {
   border: 2px solid black;
