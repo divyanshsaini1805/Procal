@@ -1,22 +1,28 @@
 .shop > section{
 height: 400px;
-width: 94%;
+width: 92%;
 line-height: 18px;
-border: 4px red;
+
+
 }
 
-.box{
-
-  border: 4px red;
 
 
+p{
+  
+  font-family: 'Montserrat', sans-serif;
+  height: fit-content;
+  width: fit-content;
 }
 
 .shop > h3, .box > h3, .mapbox > h3{
 
 text-align: center;
-font: bolder;
-color: royalblue;
+color: black;
+font-weight: 500px;
+font-family: 'Montserrat', sans-serif;
+text-shadow: 1.5px 1.5px whitesmoke;
+
 }
 
 .boxfix{
@@ -27,26 +33,24 @@ color: royalblue;
 
 .boxfix > img {
 
-height: 345px;
+height: 300px;
 
 
 }
 
+ 
 .chats{
   background-color: whitesmoke;
   height: 50px;
   width: 15%;
-  border-radius: 100%;
+  border-radius: 5%;
   border: none;
-  transform: translate(10px,320px);
-  text-align: center;
-  box-shadow: 1px 1px 2px 2px turquoise;
-  transition: width 1s, height 1s, border-radius 1s ease-in-out; 
   
-}
-
-.content{
-  position: fixed;
+  text-align: center;
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+  transition: width 1s, height 1s, border-radius 1s ease-in-out; 
+  float: right;
+  
 }
 
 .fa-rocketchat {
@@ -59,7 +63,36 @@ height: 345px;
 
 .size{
     
-  width: 100vh;
-  height: 20vh;  
+  width: 250vh;
+  height: 48vh;  
   
+}
+
+
+footer{
+  text-align: center;
+  padding: 1% 2%;
+  background-color: aqua;
+  position: sticky;
+}
+
+.ficons{
+  margin: 20px 10px;
+  color: whitesmoke;
+}
+
+.ficons:hover{
+  color:black;
+}
+h6{
+  color: whitesmoke;
+}
+
+.content{
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+#carouselExampleIndicators{
+  box-shadow: 3px 3px whitesmoke;
+  transform: translateX(7px);
 }
