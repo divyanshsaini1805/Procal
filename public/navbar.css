@@ -1,7 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+
+body {
+  background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 nav {
   width: 100%;
@@ -12,6 +15,7 @@ nav {
   border-bottom: 2px solid #e5e5e5;
   position: sticky;
   top: 0rem;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 nav button {
   display: none;
@@ -77,6 +81,7 @@ nav form input::placeholder {
 nav form input.expand {
   transform: scaleX(1);
   padding: 10px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 nav form input.expand ~ .fa-search {
   visibility: hidden;
@@ -150,8 +155,9 @@ img {
   nav button.expand-icon:before,
   nav button.expand-icon:after {
     transform: rotate(45deg);
-    background: whitesmoke;
+    
     top: 10px;
+    
   }
   nav button.expand-icon:after {
     transform: rotate(-45deg);
@@ -173,12 +179,15 @@ img {
   }
   nav .menu.expand-mobile {
     height: 700px;
+    background-color: whitesmoke;
+    opacity: 2;
   }
   nav .menu ul li {
     float: right;
     width: 90%;
     text-align: left;
     z-index: 1;
+    background-color: whitesmoke;
   }
   nav form {
     left: 30%;
