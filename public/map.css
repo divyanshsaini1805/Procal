@@ -30,7 +30,7 @@
     }
 
     
-    section, .edit {
+    section {
         
         height: 500px;
         padding: 20px;
@@ -45,7 +45,10 @@
         box-shadow: 2px 2px 2px 2px whitesmoke;
         transform: translateX(-10px);
     }
-    section.active, .edit.active {
+
+
+    
+    section.active {
         opacity: 1;
     }
     /* section:last-child {

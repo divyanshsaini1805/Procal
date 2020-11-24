@@ -13,13 +13,15 @@ p{
   font-family: 'Montserrat', sans-serif;
   height: fit-content;
   width: fit-content;
+  padding: 0px;
+  margin: 4px;
 }
 
 .shop > h3, .box > h3, .mapbox > h3{
 
 text-align: center;
 color: black;
-font-weight: 500px;
+font-weight: 700px;
 font-family: 'Montserrat', sans-serif;
 text-shadow: 1.5px 1.5px whitesmoke;
 
@@ -96,3 +98,4 @@ h6{
   box-shadow: 3px 3px whitesmoke;
   transform: translateX(7px);
 }
+
