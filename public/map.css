@@ -45,12 +45,15 @@
         box-shadow: 2px 2px 2px 2px whitesmoke;
         transform: translateX(-10px);
     }
+
+
+    
     section.active {
         opacity: 1;
     }
-    section:last-child {
+    /* section:last-child {
         
-    }
+    } */
 
 .product {
   border: 2px solid black;
