@@ -40,6 +40,7 @@ nav .menu ul li {
   padding: 10px;
   margin: 0 20px;
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 nav .menu ul:nth-child(2) li {
   position: relative;
@@ -47,13 +48,62 @@ nav .menu ul:nth-child(2) li {
   left: 140px;
   color: #757575;
 }
+
 nav .menu ul li a {
+  transition: 0.5s;
+}
+nav .menu ul:hover li a {
+  color:transparent;
+ 
+}
+nav .menu ul li:hover a {
+  color:transparent;
   text-decoration: none;
-  color: #747575;
+  
 }
-nav .menu ul li a:hover {
-  color: #00ffff;
+
+a{
+  color: black;
 }
+
+nav .menu ul li a:before{
+   content: '';
+   position: absolute;
+   top:2%;
+   left:30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   color:turquoise;
+   border-radius: 10%;
+   z-index: -1;
+   opacity: 0.25;
+   font-weight: 600;
+   text-transform: uppercase;
+   transition: letter-spacing 0.5s, left 0.5s;
+
+}
+
+nav .menu ul li a:hover:before{
+  content: attr(data-text);
+  opacity: 1;
+  right: 30%;
+  width: 620px;
+  height: 90px;
+  letter-spacing: 50px;
+  
+
+}
+
+nav .menu ul li:nth-child(6n+1) a::before{
+  
+ 
+  
+}
+
+
+
 nav form {
   position: absolute;
   width: 60%;
