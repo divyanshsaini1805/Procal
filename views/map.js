@@ -22,6 +22,58 @@ map.addControl(
     ); 
 
     map.addControl(new mapboxgl.FullscreenControl());
+
+    
+      
+   
+    let popup1 = new mapboxgl.Popup({ offset: 30 }).setHTML(
+        '<h5 align="left"><em> OPEN NOW </em></h5>'+'<h6 align="left"><small> Greetings, What are you looking for?</small></h6>'+ '<p>Open from 10:00am to 7:00pm'
+        );
+
+        let popup2 = new mapboxgl.Popup({ offset: 30 }).setHTML(
+            '<h5 align="left"><em> OPEN NOW </em></h5>'+'<h6 align="left"><small> Greetings, How can we help you</small></h6>'+ '<p>Open from 09:00am to 5:00pm'
+            );
+
+    var popup3 = new mapboxgl.Popup({ offset: 30 }).setHTML(
+        '<h5 align="left"><em> CLOSED </em></h5>'+'<h6 align="left"><small> Sorry, We will open soon!</small></h6>'+ '<p>Open from 10:00am to 6:00pm'
+        );
+
+
+    var markers = new mapboxgl.Marker()
+    .setLngLat([-0.15591514,51.51830379])
+    .setPopup(popup1)
+    .addTo(map);
+
+   var marker = new mapboxgl.Marker()
+    .setLngLat([-0.07571203, 51.51424049])
+    .setPopup(popup2)
+     .addTo(map);
+    
+   var marker = new mapboxgl.Marker()
+   .setLngLat([-0.08533793, 51.50438536])
+   .setPopup(popup3)
+    .addTo(map);
+    
+    
+   var marker = new mapboxgl.Marker()
+   .setLngLat([0.05991101, 51.48752939])
+    .addTo(map);
+    
+    
+   var marker = new mapboxgl.Marker()
+   .setLngLat([-0.18335806, 51.49439521])
+    .addTo(map);
+      
+     
+   var marker = new mapboxgl.Marker()
+   .setLngLat([-0.10669358, 51.51433123])
+    .addTo(map);
+      
+     
+   var marker = new mapboxgl.Marker()
+   .setLngLat([-0.12416858,  51.50779757])
+    .addTo(map);
+
     
 var chapters = { 
     'baker': {
